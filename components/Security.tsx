@@ -56,12 +56,12 @@ export const Security: React.FC = () => {
                         <h4 className="text-white font-bold uppercase mb-2 text-xl">Реальность угроз</h4>
                         <p className="text-sm text-neutral-400 leading-relaxed">
                         В интернете нет подтвержденных случаев взлома протокола Telegram. Все известные инциденты связаны с:
+                        </p>
                         <ul className="list-disc pl-4 mt-2 space-y-1 text-neutral-500">
                             <li>Перехватом SMS-кодов (вина операторов связи).</li>
                             <li>Заражением устройства пользователя (spyware).</li>
                             <li>Отсутствием 2FA (Облачный пароль).</li>
                         </ul>
-                        </p>
                     </div>
                 </div>
               </Reveal>
@@ -91,10 +91,10 @@ export const Security: React.FC = () => {
                     </div>
 
                     <div className="p-4 bg-neutral-900 border border-neutral-800 font-mono text-xs text-green-500">
-                        > Initiating Handshake...<br/>
-                        > Diffie-Hellman Key Exchange... OK<br/>
-                        > Checking 2FA... <span className="text-red-500">ACCESS DENIED</span><br/>
-                        > Encryption: AES-256 (Local)
+                        &gt; Initiating Handshake...<br/>
+                        &gt; Diffie-Hellman Key Exchange... OK<br/>
+                        &gt; Checking 2FA... <span className="text-red-500">ACCESS DENIED</span><br/>
+                        &gt; Encryption: AES-256 (Local)
                     </div>
                     
                     <button className="mt-8 w-full py-4 bg-white text-black font-bold uppercase hover:bg-neutral-200 transition-colors flex items-center justify-center gap-2">
